@@ -7,7 +7,7 @@ import ScrollToTopButton from './_components/ScrollToTopButton';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Guilherme Novaes | Portfolio',
+  title: 'Abdilaahi Dhaqane | Portfolio',
   description: 'Welcome to my personal portfolio!',
 }
 
