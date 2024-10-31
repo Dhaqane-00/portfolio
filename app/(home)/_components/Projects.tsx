@@ -29,7 +29,7 @@ export default function Projects({ }: Props) {
   const navigationHref = (
     <Link href={navigationProps[2].href} className="font-semibold text-blue-400 flex flex-row items-center">
       <LinkIcon className="w-4 h-4 mr-1" />
-      Saiba mais
+      Learn more
     </Link>
   )
 
@@ -43,7 +43,7 @@ export default function Projects({ }: Props) {
     >
       <div className="flex flex-row items-center justify-between w-full mb-8">
         <h3 className="uppercase tracking-widest font-semibold text-xl">
-          Projetos
+          Projects
         </h3>
         <Button variant='link' className="font-semibold">
           {navigationHref}

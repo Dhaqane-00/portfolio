@@ -29,9 +29,9 @@ export default function MyProjects() {
       className="flex flex-col mt-16 mx-4 max-w-4xl items-center justify-center z-10"
     >
       <div className="m-8">
-        <h1 className="text-3xl font-semibold pb-2 tracking-widest">Projetos</h1>
+        <h1 className="text-3xl font-semibold pb-2 tracking-widest">Projects</h1>
         <p className="text-zinc-400 text-justify md:text-start">
-          Descubra os projetos que fazem parte do meu portfólio e explore o universo das minhas criações! Nesta seção, apresento uma seleção dos meus trabalhos mais recentes e relevantes, demonstrando minha experiência e habilidades em áreas como desenvolvimento de software, design de interfaces, análise de dados e muito mais. Cada projeto reflete meu compromisso com a excelência, a criatividade e a entrega de soluções impactantes e eficazes para os desafios do mundo digital. Venha conhecer o que posso oferecer e como posso agregar valor aos seus projetos e iniciativas!
+          Discover the projects that are part of my portfolio and explore the universe of my creations! In this section, I present a selection of my most recent and relevant works, demonstrating my experience and skills in areas such as software development, interface design, data analysis, and much more. Each project reflects my commitment to excellence, creativity, and delivering impactful and effective solutions to the challenges of the digital world. Come see what I can offer and how I can add value to your projects and initiatives!
         </p>
       </div>
       <div className="mx-8 text-center md:text-start">
