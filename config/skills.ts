@@ -4,7 +4,7 @@ import { BsFillTerminalFill } from "react-icons/bs";
 import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact, FaSass } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiAlacritty, SiArchlinux, SiBootstrap, SiDocker, SiExpress, SiFirebase, SiFirefox, SiGit, SiGithub, SiLua, SiMariadb, SiMongodb, SiNeovim, SiNextdotjs, SiNextui, SiOracle, SiPostman, SiPrisma, SiRadixui, SiReactrouter, SiStyledcomponents, SiSupabase, SiTailwindcss, SiVercel, SiVim, SiVisualstudiocode, SiVite, SiFastify, SiVuedotjs, SiNuxtdotjs, SiTurso, SiC, SiClerk, SiLazyvim, SiVscodium, SiZendesk, SiTmux, SiSqlite, SiRedux, SiFlutter, SiDart, SiDjango, SiFlask } from "react-icons/si";
+import { SiAlacritty, SiArchlinux, SiBootstrap, SiDocker, SiExpress, SiFirebase, SiFirefox, SiGit, SiGithub, SiLua, SiMariadb, SiMongodb, SiNeovim, SiNextdotjs, SiNextui, SiOracle, SiPostman, SiPrisma, SiRadixui, SiReactrouter, SiStyledcomponents, SiSupabase, SiTailwindcss, SiVercel, SiVim, SiVisualstudiocode, SiVite, SiFastify, SiVuedotjs, SiNuxtdotjs, SiTurso, SiC, SiClerk, SiLazyvim, SiVscodium, SiZendesk, SiTmux, SiSqlite, SiRedux, SiFlutter, SiDart, SiDjango, SiFlask, SiNpm } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 
 export interface skill {
@@ -146,11 +146,6 @@ export const backEnd: skill[] = [
 
 export const dataBase: skill[] = [
   {
-    skill: 'MariaDB',
-    icon: SiMariadb,
-    stack: 'database',
-  },
-  {
     skill: 'MongoDB',
     icon: SiMongodb,
     stack: 'database',
@@ -185,57 +180,17 @@ export const dataBase: skill[] = [
     icon: SiFirebase,
     stack: 'database',
   },
-  {
-    skill: 'Docker',
-    icon: SiDocker,
-    stack: 'database',
-  },
 ]
 
 export const devEnviroment: skill[] = [
   {
-    skill: 'Arch Linux',
-    icon: SiArchlinux,
-    stack: 'devenviroment',
-  },
-  {
-    skill: 'Alacritty',
-    icon: SiAlacritty,
-    stack: 'devenviroment',
-  },
-  {
-    skill: 'Kitty',
-    icon: BsFillTerminalFill,
-    stack: 'devenviroment',
-  },
-  {
-    skill: 'Vim',
-    icon: SiVim,
-    stack: 'devenviroment',
-  },
-  {
-    skill: 'Neovim',
-    icon: SiNeovim,
-    stack: 'devenviroment',
-  },
-  {
-    skill: 'Lazyvim',
-    icon: SiLazyvim,
-    stack: 'devenviroment',
-  },
-  {
-    skill: 'Tmux',
-    icon: SiTmux,
+    skill: 'Npm',
+    icon: SiNpm,
     stack: 'devenviroment',
   },
   {
     skill: 'VsCode',
     icon: SiVisualstudiocode,
-    stack: 'devenviroment',
-  },
-  {
-    skill: 'VsCodium',
-    icon: SiVscodium,
     stack: 'devenviroment',
   },
   {
@@ -261,11 +216,6 @@ export const devEnviroment: skill[] = [
   {
     skill: 'Firefox',
     icon: SiFirefox,
-    stack: 'devenviroment',
-  },
-  {
-    skill: 'Zen',
-    icon: SiZendesk,
     stack: 'devenviroment',
   },
 ]
