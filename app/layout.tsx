@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Abdilaahi Dhaqane | Portfolio',
   description: 'Welcome to my personal portfolio!',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

@@ -14,7 +14,7 @@ type NavbarProps = {
 };
 
 const Navbar = ({ isActiveRoute }: NavbarProps) => {
-  // Tipo para a propriedade 'variant' do botão
+  // Type for the 'variant' property of the button
   type ButtonVariant = 'secondary' | 'ghost';
 
   return (
@@ -34,7 +34,7 @@ const Navbar = ({ isActiveRoute }: NavbarProps) => {
           </Link>
         </Button>
       </div>
-      <p className="pl-4 text-zinc-400 text-sm mb-4">Navegação</p>
+      <p className="pl-4 text-zinc-400 text-sm mb-4">Navigation</p>
       {otherNavigationItems.map((props, index) => (
         <Button
           key={index}

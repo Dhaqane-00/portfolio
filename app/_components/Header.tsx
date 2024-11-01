@@ -15,7 +15,7 @@ import SocialButtons from "./SocialButtons";
 type Props = {};
 
 export default function Header({ }: Props) {
-  // Tipo para a propriedade 'variant' do botão
+  // Type for the 'variant' property of the button
   type ButtonVariant = 'secondary' | 'ghost';
 
   const firstNavigationItem = navigationProps[0];
@@ -47,7 +47,7 @@ export default function Header({ }: Props) {
           <Navbar isActiveRoute={isActiveRoute} />
         </div>
         <div>
-          <p className="pl-4 text-zinc-400 text-sm mb-4">Redes sociais</p>
+          <p className="pl-4 text-zinc-400 text-sm mb-4">Social networks</p>
           <SocialButtons
             variants="ghost"
             classes="w-60 h-30 md:h-25 flex flex-row justify-between group"
@@ -77,7 +77,7 @@ export default function Header({ }: Props) {
               </Button>
             </div>
             <div className="flex items-center justify-start w-60 h-30">
-              <p className="pl-4 text-zinc-400 text-sm mb-4">Navegação</p>
+              <p className="pl-4 text-zinc-400 text-sm mb-4">Navigation</p>
             </div>
             {otherNavigationItems.map((props, index) => (
               <Button
@@ -95,7 +95,7 @@ export default function Header({ }: Props) {
               </Button>
             ))}
             <div>
-              <p className="pl-4 text-zinc-400 text-sm my-4">Redes sociais</p>
+              <p className="pl-4 text-zinc-400 text-sm my-4">Social networks</p>
               <SocialButtons
                 variants="ghost"
                 classes="w-60 h-30 md:h-25 flex flex-row justify-between group"
