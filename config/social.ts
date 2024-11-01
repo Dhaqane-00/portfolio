@@ -12,17 +12,17 @@ export const socialProps: social[] = [
   {
     name: 'Github',
     icon: Github,
-    link: 'https://github.com/Dhaqane-00'
+    link: 'https://github.com/Guilherme-RNovaes'
   },
   {
     name: 'Linkedin',
     icon: Linkedin,
-    link: 'https://www.linkedin.com/in/abdilaahimowliid/'
+    link: 'https://www.linkedin.com/in/abdullahi-mowliid-dhaqane-0921b912a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app '
   },
   {
     name: 'Email',
     icon: Mail,
-    link: 'mailto:abdilaahimowliid@gmail.com'
+    link: 'mailto:guilherme00rogerio@gmail.com'
   },
   {
     name: 'Whatsapp',

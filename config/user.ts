@@ -31,7 +31,7 @@ const userAge = ageCalc(birthDate);
 
 const userProps: User =
 {
-  name: 'Abdilaahi Dhaqane',
+  name: 'Abdilaahi Mowliid Dhaqane',
   profession: 'Mobile App Developer And Fullstack Developer',
   age: userAge,
   cel: '(255)61- 7869750',

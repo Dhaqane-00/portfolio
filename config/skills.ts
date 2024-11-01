@@ -4,7 +4,7 @@ import { BsFillTerminalFill } from "react-icons/bs";
 import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact, FaSass } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiAlacritty, SiArchlinux, SiBootstrap, SiDocker, SiExpress, SiFirebase, SiFirefox, SiGit, SiGithub, SiLua, SiMariadb, SiMongodb, SiNeovim, SiNextdotjs, SiNextui, SiOracle, SiPostman, SiPrisma, SiRadixui, SiReactrouter, SiStyledcomponents, SiSupabase, SiTailwindcss, SiVercel, SiVim, SiVisualstudiocode, SiVite, SiFastify, SiVuedotjs, SiNuxtdotjs, SiTurso, SiC, SiClerk, SiLazyvim, SiVscodium, SiZendesk, SiTmux, SiSqlite, SiRedux } from "react-icons/si";
+import { SiAlacritty, SiArchlinux, SiBootstrap, SiDocker, SiExpress, SiFirebase, SiFirefox, SiGit, SiGithub, SiLua, SiMariadb, SiMongodb, SiNeovim, SiNextdotjs, SiNextui, SiOracle, SiPostman, SiPrisma, SiRadixui, SiReactrouter, SiStyledcomponents, SiSupabase, SiTailwindcss, SiVercel, SiVim, SiVisualstudiocode, SiVite, SiFastify, SiVuedotjs, SiNuxtdotjs, SiTurso, SiC, SiClerk, SiLazyvim, SiVscodium, SiZendesk, SiTmux, SiSqlite, SiRedux, SiFlutter, SiDart, SiDjango, SiFlask } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 
 export interface skill {
@@ -14,6 +14,16 @@ export interface skill {
 }
 
 export const frontEnd: skill[] = [
+  {
+    skill: 'Flutter',
+    icon: SiFlutter,
+    stack: 'frontend',
+  },
+  {
+    skill: 'Dart',
+    icon: SiDart,
+    stack: 'frontend',
+  },
   {
     skill: 'Html',
     icon: FaHtml5,
@@ -103,11 +113,6 @@ export const backEnd: skill[] = [
     stack: 'backend',
   },
   {
-    skill: 'Lua',
-    icon: SiLua,
-    stack: 'backend',
-  },
-  {
     skill: 'NodeJs',
     icon: FaNodeJs,
     stack: 'backend',
@@ -118,13 +123,13 @@ export const backEnd: skill[] = [
     stack: 'backend',
   },
   {
-    skill: 'Redux',
-    icon: SiRedux,
+    skill: 'Flask',
+    icon: SiFlask,
     stack: 'backend',
   },
   {
-    skill: 'Fastify',
-    icon: SiFastify,
+    skill: 'Redux',
+    icon: SiRedux,
     stack: 'backend',
   },
   {
@@ -133,13 +138,8 @@ export const backEnd: skill[] = [
     stack: 'backend',
   },
   {
-    skill: 'Turso',
-    icon: SiTurso,
-    stack: 'backend',
-  },
-  {
-    skill: 'Clerk',
-    icon: SiClerk,
+    skill: 'Django',
+    icon: SiDjango,
     stack: 'backend',
   },
 ]
