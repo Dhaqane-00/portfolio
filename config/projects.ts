@@ -20,25 +20,19 @@ export const projectProps: project[] = [
     img: '/img/Evc-plus.jpg',
     direction: 'left',
   },
-  // {
-  //   name: 'project-master',
-  //   description: 'A aplicação em si é um gerenciador de projetos, com funções como criação de projeto, adição de tarefas, to-do e prazos.',
-  //   stacks: [
-  //     'Javascript',
-  //     'Typescript',
-  //     'NextJs',
-  //     'Tailwind',
-  //     'Prisma',
-  //     'PostgreeSQL',
-  //     'Supabase',
-  //     'NextAuth'
-  //   ],
-  //   link: '/production',
-  //   source: 'https://github.com/Guilherme-RNovaes/project-master',
-  //   img: '/img/project_master.png',
-  //   direction: 'right',
-  // },
-  // {
+  {
+    name: 'Wing-Vpn',
+    description: 'Wing-Vpn is a mobile application that allows users to connect to a VPN server and access the internet securely.',
+    stacks: [
+      'Flutter',
+      'Dart',
+    ],
+    link: '/production',
+    source: 'https://github.com/Dhaqane-00/vpn_wing_Flutter.git',
+    img: '/img/Wing_Thumbnail.jpg',
+    direction: 'right',
+  },
+  // {s
   //   name: 'wedding-invitation',
   //   description: 'Aplicação feita com o propósito de servir como um convite para meu casamento, com confirmação de presença e presentes.',
   //   stacks: [
