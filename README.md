@@ -8,7 +8,6 @@ This is the actual version of my personal portfolio.
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Stack](#stack)
-- [Author](#author)
 
 ## General
 
@@ -20,7 +19,7 @@ This is the actual version of my personal portfolio.
 
 ### Links
 
-- Production: [Visualize](https://guilherme-rnovaes.github.io/)
+- Production: [Visualize]()
 
 ### Stack
 
@@ -29,8 +28,3 @@ This is the actual version of my personal portfolio.
 - TailwindCss
 - Framer Motion
 
-## Author
-
-- Portifolio - [Guilherme Rogério Novaes](https://guilherme-novaes-portifolio.vercel.app/)
-- LinkedIn - [Guilherme Rogério Novaes](https://www.linkedin.com/in/guilherme-r-novaes/)
-- GitHub - [Guilherme-RNovaes](https://github.com/Guilherme-RNovaes)
