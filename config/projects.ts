@@ -40,7 +40,7 @@ export const projectProps: project[] = [
     ],
     link: '/production',
     source: 'https://github.com/Dhaqane-00/E-Learning_Backend.git',
-    img: '/production',
+    img: '/img/E-learning.jpg',
     direction: 'left',
   },
   // {
