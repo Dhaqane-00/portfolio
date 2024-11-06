@@ -12,7 +12,7 @@ export const socialProps: social[] = [
   {
     name: 'Github',
     icon: Github,
-    link: 'https://github.com/Guilherme-RNovaes'
+    link: 'https://github.com/Dhaqane-00'
   },
   {
     name: 'Linkedin',
@@ -22,7 +22,7 @@ export const socialProps: social[] = [
   {
     name: 'Email',
     icon: Mail,
-    link: 'mailto:guilherme00rogerio@gmail.com'
+    link: 'mailto:Abdilaahimowliid@gmail.com'
   },
   {
     name: 'Whatsapp',
