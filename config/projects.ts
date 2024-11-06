@@ -32,24 +32,17 @@ export const projectProps: project[] = [
     img: '/img/Wing_Thumbnail.jpg',
     direction: 'right',
   },
-  // {s
-  //   name: 'wedding-invitation',
-  //   description: 'Aplicação feita com o propósito de servir como um convite para meu casamento, com confirmação de presença e presentes.',
-  //   stacks: [
-  //     'Javascript',
-  //     'Typescript',
-  //     'NextJs',
-  //     'Tailwind',
-  //     'Prisma',
-  //     'PostgreeSQL',
-  //     'Supabase',
-  //     'API'
-  //   ],
-  //   link: 'https://convite-de-casamento.vercel.app/',
-  //   source: 'https://github.com/Guilherme-RNovaes/wedding-invitation',
-  //   img: '/img/wedding_invitation.png',
-  //   direction: 'left',
-  // },
+  {
+    name: 'E-learning Managment System Api',
+    description: 'A robust and scalable Learning Management System (LMS) backend built with Node.js, Express, and MongoDB. This API provides comprehensive features for course management, user authentication, content delivery, and learning progress tracking.',
+    stacks: [
+      'Javascript',
+    ],
+    link: '/production',
+    source: 'https://github.com/Dhaqane-00/E-Learning_Backend.git',
+    img: '/production',
+    direction: 'left',
+  },
   // {
   //   name: 'fsw-barbershop',
   //   description: 'Aplicação feita com o propósito de servir como um aplicativo para barbearias, as quais podem se cadastrar, mostrar seus serviços, valores e realizar agendamentos.',
