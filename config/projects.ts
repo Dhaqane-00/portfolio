@@ -50,6 +50,22 @@ export const projectProps: project[] = [
     direction: 'left',
   },
   {
+    name: 'YAGLEEL ICT',
+    description: 'A modern, high-performance landing page built with Next.js 15.0.3, TypeScript, Tailwind CSS. Shadcn With Aceternity',
+    stacks: [
+      'TypeScript',
+      'Next js 15',
+      'Tailwind Css',
+      'Shadcn',
+      'aceternity',
+      'Turbopack'
+    ],
+    link: '/production',
+    source: 'https://github.com/Dhaqane-00/ict-landing.git',
+    img: '/img/Yagleel.png',
+    direction: 'right',
+  },
+  {
     name: 'Flutter E-commerce App',
     description: 'A modern, feature-rich e-commerce mobile application built with Flutter.',
     stacks: [
@@ -88,22 +104,6 @@ export const projectProps: project[] = [
     source: 'https://github.com/Dhaqane-00/Student-Graduation-React.git',
     img: '/img/Student-Graduation.jpg',
     direction: 'left',
-  },
-  {
-    name: 'YAGLEEL ICT',
-    description: 'A modern, high-performance landing page built with Next.js 15.0.3, TypeScript, Tailwind CSS. Shadcn With Aceternity',
-    stacks: [
-      'TypeScript',
-      'Next js 15',
-      'Tailwind Css',
-      'Shadcn',
-      'aceternity',
-      'Turbopack'
-    ],
-    link: '/production',
-    source: 'https://github.com/Dhaqane-00/ict-landing.git',
-    img: '/img/Yagleel.png',
-    direction: 'right',
   },
   // {
   //   name: 'pearson-hardman',
