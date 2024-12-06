@@ -10,7 +10,7 @@ export interface project {
 
 export const projectProps: project[] = [
   {
-    name: 'Evc-Plus service',
+    name: 'Evc-Plus service Node Package',
     description: 'Evc-Plus service is a mobile application that allows users to send and receive money, as well as make payments and transfers.',
     stacks: [
       'Javascript',
