@@ -64,7 +64,7 @@ export const projectProps: project[] = [
     ],
     link: '/production',
     source: 'https://github.com/Dhaqane-00/Flutter-E-commerce.git',
-    img: '/img/E-commerce.jpg',
+    img: '',
     direction: 'right',
   },
   {
@@ -89,20 +89,22 @@ export const projectProps: project[] = [
     img: '/img/Student-Graduation.jpg',
     direction: 'left',
   },
-  // {
-  //   name: 'google-keep-clone',
-  //   description: 'Clone básico do famoso "google Keep" onde foram implementadas as funcionalidades de adicionar e excluir tarefas com título e descrição.',
-  //   stacks: [
-  //     'Javascript',
-  //     'React',
-  //     'Html',
-  //     'Css'
-  //   ],
-  //   link: 'https://google-keep-clone-blond.vercel.app/',
-  //   source: 'https://github.com/Guilherme-RNovaes/google-keep-clone',
-  //   img: '/img/google_keep_clone.png',
-  //   direction: 'right',
-  // },
+  {
+    name: 'YAGLEEL ICT',
+    description: 'A modern, high-performance landing page built with Next.js 15.0.3, TypeScript, Tailwind CSS. Shadcn With Aceternity',
+    stacks: [
+      'TypeScript',
+      'Next js 15',
+      'Tailwind Css',
+      'Shadcn',
+      'aceternity',
+      'Turbopack'
+    ],
+    link: '/production',
+    source: 'https://github.com/Dhaqane-00/ict-landing.git',
+    img: '/img/Yagleel.png',
+    direction: 'right',
+  },
   // {
   //   name: 'pearson-hardman',
   //   description: "Modelo de landing page para advocacias voltado para divulgação e captação de clientes inspirado no seriado 'suits'.",
